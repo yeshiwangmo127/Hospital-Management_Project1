@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jigme Dorji Wangchuk National Referral Hospital</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="hospitalStyle.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #98b7e7;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* New "About our Xtra Medical" Section */
+    .medical-section {
+      text-align: center;
+      background: linear-gradient(to bottom, white 50%, #2f66cb 50%);
+      padding-bottom: 100px;
+      padding-top: 150px;
+    }
+
+    .medical-section .content {
+      padding: 50px 20px 20px;
+    }
+
+    .medical-section h1 {
+      font-size: 2.5rem;
+      color: #2c3e50;
+    }
+
+    .medical-section h1 span {
+      color: #2f66cb;
+    }
+
+    .medical-section p {
+      font-size: 1.25rem;
+      color: #555;
+      margin-top: 10px;
+    }
+
+    .image-container {
+      margin-top: -50px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .image-container img {
+      width: 800px;
+      max-width: 90%;
+      border-radius: 10px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Original About Us styles */
+    .about-section {
+      background-color: #6795ff;
+      padding: 50px 20px;
+      margin: 20px auto;
+      border-radius: 8px;
+      max-width: 800px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .about-section h2 {
+      color: #2c3e50;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .about-section p {
+      color: #34495e;
+      line-height: 1.6;
+    }
+
+    .team {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 30px;
+      gap: 20px;
+    }
+
+    .team-member {
+      background-color: #9bbbff;
+      padding: 15px;
+      border-radius: 8px;
+      text-align: center;
+      width: 200px;
+      transition: transform 0.3s;
+    }
+
+    .team-member:hover {
+      transform: translateY(-5px);
+    }
+
+    .team-member img {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+    }
+    .experience-section h2 {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.experience-section p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="hospital.html">
+        <img src="images2/hospitalLogo.png" alt="Logo" class="logo" width="30" height="30">
+        PurePath Medical
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item"><a class="nav-link active" href="hospital.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="abouthospital.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="hospitalservices.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="report.html">Reports</a></li>
+          <li class="nav-item"><a class="nav-link" href="#footer">Contact</a></li>
+        </ul>
+        <form class="d-flex ms-3">
+          <input class="form-control me-2" type="search" placeholder="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+        <a class="btn btn-outline-light ms-3" href="bookhospital.html">Book Now</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ✨ New About Xtra Medical Section -->
+  <section class="medical-section">
+    <div class="content">
+      <h1>About our <span>PurePath Medical</span></h1>
+      <p>With over 15 years of experience</p>
+    </div>
+    <div class="image-container">
+      <img src="images2/doctor1.png" alt="Doctor Image" />
+    </div>
+  </section>
+
+  <!-- 🩺 Existing About Section -->
+  <div class="about-section">
+    <h2>About Us</h2>
+    <p>Welcome to our medical facility, where we prioritize your health and well-being. Our experienced team of healthcare professionals is dedicated to providing high-quality care through innovative medical practices and a compassionate approach.</p>
+    
+    <p>We offer a wide range of medical services, including preventive care, diagnostics, and specialized treatments. Our goal is to empower you with the information you need to make informed decisions about your healthcare.</p>
+    
+    <h3>Meet Our Team</h3>
+    <div class="team">
+      <div class="team-member">
+        <img src="images2/doctor1.png" alt="Dr. John Smith">
+        <h4>Dr. John Smith</h4>
+        <p>Chief Medical Officer</p>
+      </div>
+      <div class="team-member">
+        <img src="images2/doctor2.jpg" alt="Dr. Jane Doe">
+        <h4>Dr. Jane Doe</h4>
+        <p>Pediatric Specialist</p>
+      </div>
+      <div class="team-member">
+        <img src="images2/doctor3.jpg" alt="Dr. Emily Johnson">
+        <h4>Dr. Emily Johnson</h4>
+        <p>Cardiologist</p>
+      </div>
+      <div class="team-member">
+        <img src="images2/doctor5.jpg" alt="Dr. Choi Deok">
+        <h4>Dr. Choi Deok</h4>
+        <p>Dentist</p>
+      </div>
+      <div class="team-member">
+        <img src="images2/doctor4.webp" alt="Dr. Jeong Seok">
+        <h4>Dr. Jeong Seok</h4>
+        <p>SUrgeon</p>
+      </div>
+      <div class="team-member">
+        <img src="images2/doctor6.jpeg" alt="Dr. Jonas">
+        <h4>Dr. Jonas</h4>
+        <p>Dermotologist</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Experience and Reach Section -->
+<section class="experience-section py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Text Content -->
+        <div class="col-md-6">
+          <h2 class="mb-3">Experience and <span class="text-primary">Reach</span></h2>
+          <p class="text-muted mb-3">The medical reach experience with knowledge</p>
+          <p class="mb-4">
+            Physicians, scientists and other medical experts dedicate a portion of their clinical time to this site. We are in the unique position to give you access to the knowledge and experience of Medical Physicians.
+          </p>
+          <div class="row">
+            <div class="col-6">
+              <p><i class="bi bi-check-circle-fill text-info me-2"></i>Scheduling patient</p>
+              <p><i class="bi bi-check-circle-fill text-info me-2"></i>Preparing blood sample</p>
+              <p><i class="bi bi-check-circle-fill text-info me-2"></i>Helping physicians</p>
+            </div>
+            <div class="col-6">
+              <p><i class="bi bi-check-circle-fill text-info me-2"></i>Preparing patients</p>
+              <p><i class="bi bi-check-circle-fill text-info me-2"></i>Taking and recording</p>
+              <p><i class="bi bi-check-circle-fill text-info me-2"></i>Replacement recovery</p>
+            </div>
+          </div>
+        </div>
+        <!-- Image -->
+        <div class="col-md-6 text-center">
+          <img src="images2/expert.webp" alt="Doctors" class="img-fluid rounded shadow">
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <section id="footer">
+    <div class="footer-container">
+        <div class="footer-contact">
+            <h3>Pure path Medical</h3>
+            <ul>
+                <li>Email: info@purepath.com</li>
+                <li>Phone: +123-678-9234</li>
+                <li>Address: California, united States</li>
+            </ul>
+        </div>
+        <div class="footer-social">
+            <h3>Subscribe on our newsletter</h3>
+            <form class="d-flex justify-content-center">
+                <input type="email" class="form-control me-2" placeholder="Enter your email ..." aria-label="Email">
+                <button class="btn btn-primary" type="submit">Join Now</button>
+            </form>
+            <ul>
+                <a href="https://www.facebook.com/CST.University/" class="btn btn-outline-dark"><i class="bi bi-facebook"></i> Facebook</a>
+                <a href="https://www.facebook.com/CST.University/" class="btn btn-outline-dark"><i class="bi bi-twitter"></i> Twitter</a>
+                <a href="https://www.facebook.com/CST.University/" class="btn btn-outline-dark"><i class="bi bi-instagram"></i> Instagram</a>
+                <a href="https://www.facebook.com/CST.University/" class="btn btn-outline-dark"><i class="bi bi-skype"></i> Skype</a>
+            </ul>
+        </div>
+    </div>
+    </section>
+    </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
